@@ -12,7 +12,15 @@ namespace NumberGuesser //container for classes or functions
         //void = no return
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+
+            string name = "Simran Sandhu";
+
+            int age = 21;
+
+
+
+            Console.WriteLine(name + " is " + age + " years old");
+            Console.WriteLine("{0} is {1} years old", name, age); //better way to write this
         }
     }
 }
